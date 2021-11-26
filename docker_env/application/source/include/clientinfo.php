@@ -20,5 +20,4 @@ if (mysqli_num_rows($resultat) === 1) {
     $_SESSION['email'] = $row['email'];
     $_SESSION['id'] = $row['id'];
     $_SESSION['bday'] = $row['bday'];
-
-    ?>
+}
